@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>close btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Startseite-Mobile-Menu" sketch:type="MSArtboardGroup" transform="translate(-325.000000, -21.000000)" stroke="#9B9DA0" stroke-width="2" fill="#5B5B58">
+            <g id="Menu-mobile" sketch:type="MSLayerGroup" transform="translate(-76.000000, 0.000000)">
+                <path d="M413.62667,33.0449805 L423.924413,22.7472366 C424.085196,22.5864544 424.085196,22.3263494 423.924413,22.1655672 C423.763631,22.004785 423.502977,22.004785 423.342195,22.1655672 L413.045,32.4627624 L402.747256,22.1655672 C402.586474,22.004785 402.326369,22.004785 402.165587,22.1655672 C402.004805,22.3263494 402.004805,22.5864544 402.165587,22.7472366 L412.462782,33.0449805 L402.165587,43.3421757 C402.004805,43.5029579 402.004805,43.7630629 402.165587,43.9238451 C402.245703,44.0045106 402.351062,44.044569 402.456421,44.044569 C402.56178,44.044569 402.667139,44.0045106 402.747256,43.9238451 L413.045,33.6271987 L423.342195,43.9238451 C423.422861,44.0045106 423.527671,44.044569 423.63303,44.044569 C423.738389,44.044569 423.843748,44.0045106 423.924413,43.9238451 C424.085196,43.7630629 424.085196,43.5029579 423.924413,43.3421757 L413.62667,33.0449805" id="close-btn" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
