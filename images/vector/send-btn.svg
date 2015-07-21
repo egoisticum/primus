@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>send btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Startseite-Desktop" sketch:type="MSArtboardGroup" transform="translate(-1163.000000, -3886.000000)">
+            <g id="Container-5-Copy-2" sketch:type="MSLayerGroup" transform="translate(-1.000000, 3484.000000)">
+                <g id="message-field" transform="translate(612.176977, 115.000000)" sketch:type="MSShapeGroup">
+                    <g id="send-btn" transform="translate(554.000000, 289.000000)">
+                        <circle id="Oval-33" stroke="#FFFFFF" stroke-width="3" cx="27.5" cy="27.5" r="27.5"></circle>
+                        <path d="M42.3489395,26.0087121 L30.3068062,13.9685666 C29.7243788,13.3861392 28.7821584,13.3861392 28.199731,13.9685666 C27.6173036,14.5509939 27.6173036,15.4952022 28.199731,16.0776295 L39.1843512,27.0622497 L28.199731,38.0488576 C27.6173036,38.631285 27.6173036,39.5754932 28.199731,40.1579206 C28.4899508,40.4501282 28.8735975,40.5952381 29.2532686,40.5952381 C29.6349275,40.5952381 30.0165864,40.4501282 30.3068062,40.1579206 L42.3489395,28.1157873 C42.6292203,27.8374943 42.786257,27.4578232 42.786257,27.0622497 C42.786257,26.6686639 42.6292203,26.2889929 42.3489395,26.0087121 L42.3489395,26.0087121 Z" id="Fill-114" fill="#FFFFFF"></path>
+                        <path d="M37.8216879,26.8452381 L1.00012273,26.8452381" id="Line" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

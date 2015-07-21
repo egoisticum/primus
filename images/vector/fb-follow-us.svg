@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="212px" height="48px" viewBox="0 0 212 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>fb-follow-us</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Startseite-Desktop" sketch:type="MSArtboardGroup" transform="translate(-1007.000000, -4104.000000)">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(-4.000000, 4046.000000)">
+                <g id="fb-follow-us" transform="translate(1011.000000, 58.000000)">
+                    <path d="M25.8901386,47.6678665 C39.8358062,47.6678665 51.1410036,37.0332276 51.1410036,23.9147359 C51.1410036,10.7962441 39.8358062,0.16160528 25.8901386,0.16160528 C11.944471,0.16160528 0.639273695,10.7962441 0.639273695,23.9147359 C0.639273695,37.0332276 11.944471,47.6678665 25.8901386,47.6678665 Z M27.6864395,36.83618 L27.6864395,23.9132228 L31.4165063,23.9132228 L31.9108207,19.4599003 L27.6864395,19.4599003 L27.6927768,17.2309694 C27.6927768,16.0694743 27.8081697,15.4471187 29.5525291,15.4471187 L31.884415,15.4471187 L31.884415,10.9932918 L28.1538201,10.9932918 C23.6727756,10.9932918 22.0955641,13.1536324 22.0955641,16.7866459 L22.0955641,19.4604046 L19.3023709,19.4604046 L19.3023709,23.9137272 L22.0955641,23.9137272 L22.0955641,36.83618 L27.6864395,36.83618 Z" id="Facebook" opacity="0.504780784" fill="#9B9DA0" sketch:type="MSShapeGroup"></path>
+                    <text id="FOLLOW-US" sketch:type="MSTextLayer" font-family="Lato" font-size="18.1700001" font-weight="normal" letter-spacing="1.10000002" fill="#9B9DA0">
+                        <tspan x="69" y="30.3892493">FOLLOW U</tspan>
+                        <tspan x="170.321641" y="30.3892493">S</tspan>
+                    </text>
+                    <rect id="Rectangle-190" stroke="#75777B" stroke-width="2" sketch:type="MSShapeGroup" x="1" y="0" width="211" height="48" rx="40"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

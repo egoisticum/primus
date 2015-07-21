@@ -83,7 +83,18 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 	#mainHeader #mainMenu #navbar ul.primusMenu li a{font-size: 12px;padding: 10px;}
 }
 /*4. footer*/
-#footer{position: relative;width: 100%;}
+#footer{position: relative;width: 100%;background-color: #4d4f56;padding: 3em 10%;color:#9b9da0;min-height:130px;}
+#footer .copyright{}
+#footer .footerMenu{}
+#footer .footerMenu a{color:#9b9da0;}
+#footer .footerMenu a:hover{color:#9b9da0; text-decoration: none;}
+
+#footer .footerLogo{}
+
+@media(max-width:768px){
+	#footer{min-height:230px;}
+}
+
 /*5. main slider section*/
 #main{width:100%;position: relative;}
 #main img{width:100%;}
@@ -164,18 +175,37 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 }
 /*9. testimonials*/
 #testimonials{position: relative;width: 100%;padding: 5em 15px;}
+#testimonials h2.main-title{color:#4d4f56;text-align: center;font-size: 1.3em;}
+#testimonials .devider{height:3px;background-color: #f5a623;width: 3em;margin-left: auto;margin-right: auto;display: block;}
+#testimonials blockquote{border: none;}
+#testimonials blockquote i{color:#f5a623;font-size: 3em;}
+
 #testimonials .nav-tabs{border:none;}
-#testimonials .nav-tabs li{}
+#testimonials .nav-tabs li{padding: }
 #testimonials .nav-tabs li.active{border:none;}
 #testimonials .nav-tabs li a{border:none;}
 #testimonials .nav-tabs li a:hover{background-color: transparent;}
-#testimonials .nav-tabs li h3{text-transform: uppercase;color:#104656;font-size: 1em;text-align: center;line-height: 1;margin: 0;}
+#testimonials .nav-tabs li h3{text-transform: uppercase;color:#104656;font-size: 1em;text-align: center;line-height: 1;margin: 0;font-weight: 600;}
 #testimonials .nav-tabs li h1{color:#f6b64a;font-size: 1.2em;text-align: center;line-height: 1;margin-top: 0.35em;}
 
 #testimonials .nav-tabs li.active a{border:none;}
-#testimonials .nav-tabs li .overlay{background-color:rgba(229,229,229,0.5);display: none;position: absolute;position: absolute;left:0;top:0;width:100%;height:100%;border-radius: 50%;}
-#testimonials .nav-tabs li.active .overlay{display: block;}
+#testimonials .nav-tabs li a .overlay{background-color:rgba(229,229,229,0.5);display: none;position: absolute;position: absolute;left:0;top:0;width:100%;height:100%;border-radius: 50%;}
+#testimonials .nav-tabs li.active a .overlay{display: block;}
+#testimonials .nav-tabs li .info{display: none; margin-top: 1em;}
+#testimonials .nav-tabs li.active > .info{display: block;}
 /*10. partners*/
-#partners{position: relative;width: 100%;}
+#partners{position: relative;width: 100%;padding: 2em 0;background-color: #d8d8d8;}
 /*11. contact*/
-#contact{position: relative;width: 100%;}
+#contact{position: relative;width: 100%;height:100%;padding: 2em 15px;background-color: rgba(196,35,42,0.7);display: table;}
+#contact .left{display: table-cell;}
+#contact .left h1{color:#ffffff;font-weight: 600;font-size:1.5em;}
+#contact .left p{color:#ffffff;font-size:1em;font-weight: 600;}
+#contact .left .mobilePhone{color:#ffffff;}
+#contact .left .mobileInfo{color:#ffffff;}
+#contact .left .mobileInfo p{font-size: 1em;}
+#contact .left .mobileInfo h3{font-size: 1.5em;font-weight: 600;margin: 0.5em 0 0 0;}
+
+#contact .right{display: table-cell;}
+#contact .right .form-control{height:3em;opacity: 0.8;margin-bottom: 1em;color:#ffffff;font-weight: 600;background-color: rgba(150,4,6,0.8);border:2px solid rgba(164,6,6,0.8);}
+#contact .right textarea.form-control{height: 150px;}
+#contact .right .btn{background-color:transparent !important;border: none;color:#ffffff; float:right;margin: 85px 0 0 0;}

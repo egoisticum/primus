@@ -23,11 +23,11 @@ var ambitiousSlider = {
   },
   left: function(elem){
     JQ(elem + '.inner .item').last().prependTo('.slider .inner');
-    JQ(elem + '.inner .item').addClass('fadeIn');
+    JQ(elem + '.inner .item').addClass('pulse');
   },
   right: function(elem){
     JQ(elem + '.inner .item').first().appendTo('.slider .inner');
-    JQ(elem + '.inner .item').addClass('fadeIn');
+    JQ(elem + '.inner .item').addClass('pulse');
   },
   specific: function(elem, index){
     JQ()
