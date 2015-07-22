@@ -196,7 +196,7 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 /*10. partners*/
 #partners{position: relative;width: 100%;padding: 2em 0;background-color: #d8d8d8;}
 /*11. contact*/
-#contact{position: relative;width: 100%;height:100%;padding: 2em 15px;background-color: rgba(196,35,42,0.7);display: table;}
+#contact{position: relative;width: 100%;height:100%;padding: 5em 15px;background-color: rgba(196,35,42,0.7);display: table;z-index: 9;}
 #contact .left{display: table-cell;}
 #contact .left h1{color:#ffffff;font-weight: 600;font-size:1.5em;}
 #contact .left p{color:#ffffff;font-size:1em;font-weight: 600;}
@@ -204,8 +204,34 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #contact .left .mobileInfo{color:#ffffff;}
 #contact .left .mobileInfo p{font-size: 1em;}
 #contact .left .mobileInfo h3{font-size: 1.5em;font-weight: 600;margin: 0.5em 0 0 0;}
+#contact .left .mobileIcons{float-left;display: inline;}
+#contact .left .mobileIcons img{display: inline;}
 
 #contact .right{display: table-cell;}
 #contact .right .form-control{height:3em;opacity: 0.8;margin-bottom: 1em;color:#ffffff;font-weight: 600;background-color: rgba(150,4,6,0.8);border:2px solid rgba(164,6,6,0.8);}
 #contact .right textarea.form-control{height: 150px;}
 #contact .right .btn{background-color:transparent !important;border: none;color:#ffffff; float:right;margin: 85px 0 0 0;}
+#contactWrapper{position: relative;}
+#contactWrapper #mapContact{padding: 0px 0px 0px 0px;height: auto;width: 100%;position: absolute;top: 0;left: 0;z-index: 1;}
+#contactWrapper #gradient{position:absolute;z-index:2;width: 100%;right:0; top:0;left:0;height:100%;
+    background: -moz-linear-gradient(right,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -o-linear-gradient(right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -ms-linear-gradient(right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    }
+@media(max-width: 768px){
+	#contact{padding: 2em 15px;}
+	#contactWrapper #gradient{background: -moz-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
+    background: -webkit-gradient(linear, top left, bottom right, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -o-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -ms-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );}
+    #contact .right .btn{margin: 1em 0 0;}
+    #contact .mobileContactInfo h1{font-weight: 600;font-size: 1.1em;}
+    #contact .mobileContactInfo p{font-size:1em;font-weight: 500;}
+}

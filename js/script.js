@@ -54,4 +54,9 @@ jq(document).ready(function(){
 	JQ(sliderCourses + '#right-nav').click(function (e) {
 		ambitiousSlider.right(sliderCourses);
 	});
+	/*home page contact map*/
+	googleMap.setMapDimensions();
+    jq(window).resize(function () {
+        googleMap.setMapDimensions();
+    });
 });
