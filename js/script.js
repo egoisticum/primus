@@ -54,6 +54,13 @@ jq(document).ready(function(){
 	JQ(sliderCourses + '#right-nav').click(function (e) {
 		ambitiousSlider.right(sliderCourses);
 	});
+	//specific-click
+	JQ(sliderCourses + '.carousel-indicators .index').click(function (e) {
+		var index = JQ(this).attr('data-slide-to');
+		ambitiousSlider.specific(sliderCourses, index);
+		JQ(this).siblings().removeClass("active");
+		JQ(this).addClass("active");
+	});
 	/*home page contact map*/
 	googleMap.setMapDimensions();
     jq(window).resize(function () {

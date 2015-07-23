@@ -19,7 +19,8 @@ Content:
 11. contact
 */
 /*1. general things*/
-body{overflow-x:hidden; }
+@font-face {font-family: Lato;src: url(../fonts/Lato-Regular.ttf);}
+body, html{overflow-x:hidden;font-family: Lato; }
 .row-centered {text-align: center;}
 .col-centered {display: inline-block;float: none;text-align: left;}
 /*2. helpers*/
@@ -43,7 +44,6 @@ body{overflow-x:hidden; }
 .bottom-90{margin-bottom:90px;}
 .no-padding{padding: 0 !important;}
 .no-margin{margin: 0 !important;}
-
 i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display: inline-block;}
 /*3. header*/
 #mainHeader{}
@@ -181,7 +181,7 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #testimonials blockquote i{color:#f5a623;font-size: 3em;}
 
 #testimonials .nav-tabs{border:none;}
-#testimonials .nav-tabs li{padding: }
+#testimonials .nav-tabs li{min-height: 180px; }
 #testimonials .nav-tabs li.active{border:none;}
 #testimonials .nav-tabs li a{border:none;}
 #testimonials .nav-tabs li a:hover{background-color: transparent;}
