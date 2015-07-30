@@ -58,6 +58,7 @@ body, html{overflow-x:hidden;font-family: Lato; font-size: 1em;}
 .bottom-90{margin-bottom:90px;}
 .no-padding{padding: 0 !important;}
 .no-margin{margin: 0 !important;}
+.no-background{background-color: transparent !important;}
 i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display: inline-block;}
 /*3. header*/
 #mainHeader{}
@@ -80,11 +81,13 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #mainHeader #mainMenu #navbar ul.primusMenu li.active a{color:#ecae53;background-color:transparent;}
 
 @media(max-width:768px){
-	#mainHeader #mainMenu{top:0;background-color:rgba(255, 255, 255, 0.7);}
-	#mainHeader #mainMenu #navbar{background-color: #faf8f6 !important;left: 0;min-height: 500px;overflow: hidden;position: relative;right: 0;top: -10px;width: 100% !important;border:none;}
+	#mainHeader #mainMenu{top:0;background-color:rgba(255, 255, 255, 0.7);height:auto !important;}
+	#mainHeader #mainMenu #navbar{background-color: #faf8f6 !important;left: 0;min-height: 500px;overflow: hidden;position: relative;right: 0;top: -5.2em;width: 100% !important;border:none;}
 	#mainHeader #mainMenu .navbar-header{background-color:transparent;);}
-	#mainHeader #mainMenu .collapsed{background-color: #faf8f6 !important;}
-	#mainHeader #mainMenu .navbar-header .navbar-brand{display:none;}
+	#mainHeader #mainMenu .navbar-toggle{background-color: #faf8f6 !important;margin: 0; height: 5.2em;width:5.2em;border-radius: 0;}
+	#mainHeader #mainMenu .navbar-header .navbar-brand{height: 3.8em;}
+	#mainHeader #mainMenu .navbar-header .navbar-brand > img{display: inline-block;max-height: 100%;}
+
 	#mainHeader #mainMenu .navbar-toggle, #mainHeader #mainMenu .navbar-toggle:focus, #mainHeader #mainMenu .navbar-toggle:hover{z-index: 9999;border: none;background-color: transparent;}
 	#mainHeader #mainMenu .navbar-toggle i.menu-icon:before{content: url('../images/vector/menu-btn.svg');display: inline-block;}
 	#mainHeader #mainMenu .navbar-toggle i.close:before{content: url('../images/vector/close-btn.svg');display: inline-block;}
@@ -121,16 +124,18 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 	#main h3.text{color: #ffffff;display: inline-block;left: 10%;position: absolute;bottom: 10%;}
 }
 @media(max-width:580px){
-	#main h2.title{font-size: 1.5em;top:35%;}
+	#main h2.title{font-size: 2.3em;top:35%;}
 	#main a.link{display:none;}
-	#main h3.text{color: #ffffff;display: inline-block;left: 10%;position: absolute;bottom: 2%;}
+	#main h3.text{color: #ffffff;display: inline-block;left: 10%;position: absolute;bottom: 2%;font-size: 1.5em;}
 }
 /*6. about section*/
 #about{width:100%; padding: 6.25em 10% 10em 10%;position: relative;}
 #about h2{color:#ed9f2d;font-size: 2em;margin-bottom: 1em;font-family: LatoBold;}
 #about ul{margin-left: 15px;}
-#about ul li{color:#4d4f56; font-size: 1.375em;text-align: justify;margin-bottom: 0.6em;line-height: 1.25em;}
+#about ul li{color:#4d4f56; font-size: 1.375em;text-align: justify;margin-bottom: 1.875em;line-height: 1.25em;}
 @media(max-width:768px){
+	#about{padding: 2em 10% 3em 10%;}
+	#about h2{font-size: 1.5em;}
 	#about ul{margin-left:-30px;}
 	#about ul li{font-size: 1em;list-style-type: none;margin-bottom: 15px;}
 }
@@ -176,21 +181,22 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 
 /*8. entrance test section*/
 #entrance{background-color:#ed9f2d;padding: 5.625em 15px;position: relative; width:100%;word-wrap:break-word;}
-#entrance h2{text-transform: uppercase;color:#ffffff;text-align: center;font-size: 0.875em;}
+#entrance h2{text-transform: uppercase;color:#ffffff;text-align: center;font-size: 0.875em;margin-bottom: 30px;}
 #entrance .divider{height:3px;background-color: #ffffff;width:32px;}
-#entrance h1{font-size: 3.750em;text-align: center;color:#ffffff;font-family: LatoBlack;}
+#entrance h1{font-size: 3.750em;text-align: center;color:#ffffff;font-family: LatoBlack;margin:60px 0 40px 0;}
 #entrance p{font-size: 0.875em;text-align: center;color:#ffffff;}
 @media(max-width: 768px){
-	#entrance h2{font-size: 2em;}
-	#entrance h1{font-size: 2.5em;}
+	#entrance h2{font-size: 1em;margin-bottom: 10px;}
+	#entrance h1{font-size: 1.8em;margin:30px 0 20px 0;}
+
 }
 /*9. testimonials*/
 #testimonials{position: relative;width: 100%;padding: 5em 15px;}
-#testimonials h2.main-title{color:#4d4f56;text-align: center;font-size: 0.875em;}
-#testimonials .devider{height:3px;background-color: #f5a623;width: 3em;margin-left: auto;margin-right: auto;display: block;}
+#testimonials h2.main-title{color:#4d4f56;text-align: center;font-size: 0.875em;font-family: LatoBlack;}
+#testimonials .devider{height:3px;background-color: #f5a623;width: 3em;margin-left: auto;margin-right: auto; margin-bottom:1em; display: block;}
 #testimonials blockquote{border: none;color:#4d4f56;font-family: LatoLight;}
-#testimonials blockquote h3{font-weight: 100 !important; font-size:1.875em;margin: 0;}
-#testimonials blockquote a{border: none; color:#ed9f2d;text-decoration: none;}
+#testimonials blockquote h3{font-weight: 100 !important; font-size:1.75em;margin: 0;}
+#testimonials blockquote a{border: none; color:#ed9f2d;text-decoration: none;font-size: 0.9em;}
 #testimonials blockquote a:hover{text-decoration: none;}
 #testimonials blockquote i{color:#f5a623;font-size: 3em;}
 
@@ -239,6 +245,10 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
     }
 @media(max-width: 768px){
 	#contact{padding: 2em 15px;}
+	#contact .left h1{margin-bottom: 3em;}
+	#contact .left a > img{margin-right: .75em;margin-left:.75em;margin:0 .75em 2em .75em;}
+	#contact .mobileContactInfo{margin-bottom: 3em;}
+	#contact .mobileContactInfo h1{margin-bottom: 1em;}
 	#contactWrapper #gradient{background: -moz-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
     background: -webkit-gradient(linear, top left, bottom right, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
     background: -webkit-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);

@@ -34,6 +34,15 @@ jq(document).ready(function(){
 		jq("#mainHeader #mainMenu .navbar-toggle").click(function(){
 			jq("#mainHeader #mainMenu .navbar-toggle i.menu-icon").toggleClass("close");
 			jq("#mainHeader #mainMenu .navbar-header").toggleClass("collapsed");
+
+			if(jq(window).innerWidth() <= 768){
+				if(!jq("#mainHeader #mainMenu #navbar").hasClass("in")){
+					jq("#mainHeader #mainMenu .navbar-toggle").attr("style", "background-color: transparent !important");
+				}
+				else{
+					jq("#mainHeader #mainMenu .navbar-toggle").attr("style", "");
+				}
+			}
 		});
 	}
 	toggleNavbarButton();
