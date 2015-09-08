@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>btn mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Startseite-Mobile" sketch:type="MSArtboardGroup" transform="translate(-199.000000, -2271.000000)" stroke="#FFFFFF">
+            <g id="Container-5-Copy-2" sketch:type="MSLayerGroup" transform="translate(-10.000000, 2161.000000)">
+                <g id="btn-mail" transform="translate(210.000000, 111.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-73" stroke-width="2" cx="34" cy="34" r="34"></circle>
+                    <path d="M50.276,30.856 L50.276,48.592 L41.272,39.588 L41.268,39.588 L41.108,39.428 L50.276,30.264 L50.276,30.856 L50.276,30.856 Z M19.488,49.444 L20.232,48.7 L20.236,48.7 L33.188,35.752 C33.792,35.144 34.864,35.144 35.468,35.752 L48.104,48.384 L48.872,49.152 L49.168,49.444 L19.488,49.444 L19.488,49.444 Z M27.488,39.484 L27.384,39.588 L18.38,48.588 L18.38,30.38 L27.488,39.484 L27.488,39.484 Z M19.216,27.828 L33.188,13.864 C33.792,13.252 34.864,13.252 35.468,13.864 L50.096,28.488 L40.128,38.448 L36.956,35.28 L36.456,34.768 C35.884,34.204 35.128,33.892 34.332,33.892 C33.524,33.892 32.772,34.204 32.204,34.768 L28.468,38.504 L18.508,28.54 L19.216,27.828 L19.216,27.828 Z M51.532,27.96 L36.956,13.388 L36.456,12.884 C35.884,12.316 35.128,12 34.332,12 C33.524,12 32.772,12.316 32.204,12.884 L28.364,16.72 L18.748,26.34 L18.744,26.34 L17,28.088 L17,50.832 L51.656,50.832 L51.656,28.088 L51.532,27.96 L51.532,27.96 Z" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

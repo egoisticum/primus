@@ -5,74 +5,61 @@ Author: Almir Dodigovic
 Collaborators: Haris Hadziahmetovic
 */
 var jq = jQuery.noConflict();
-jq(document).ready(function(){
-	//on scroll hide top-header bar
-	jq(window).on("load scroll resize", function(){
-		var elem = jq("#mainHeader .topHeader");
-		if(jq(elem).visible() && jq(window).innerWidth() >= 768){
-			jq("#mainHeader #mainMenu").css("top", "40px");
-		}
-		else{
-			jq("#mainHeader #mainMenu").css("top", "0");
-		}
-	});
-	//on scrol and on load hide remove "container-fluid class" from menu
-	function fullWidthMobileMenu(){
-		if(jq(window).innerWidth() <= 768){
-			jq("#mainMenu .container-fluid").removeClass("container-fluid");
-		}
-		else{
-			jq("#mainMenu .container-fluid").addClass("container-fluid");
-		}
-	}
-	fullWidthMobileMenu();
-	jq(window).resize(function(){
-		fullWidthMobileMenu();
-	});
-	//navbar changing toggle button icons
-	function toggleNavbarButton(){
-		jq("#mainHeader #mainMenu .navbar-toggle").click(function(){
-			jq("#mainHeader #mainMenu .navbar-toggle i.menu-icon").toggleClass("close");
-			jq("#mainHeader #mainMenu .navbar-header").toggleClass("collapsed");
+jq(document).ready(function(){    
+   var WindowWidth = parseInt(jq(window).width());
+   var scroll_start = 0;
+   var startchange = jq('#startchange');
+   		  if( WindowWidth < 768){
+			   jq('.navbar-fixed-top').css('background-color', 'rgba(255, 255, 255, 0.9)');
+		   }
+   var offset = startchange.offset();
+    if (startchange.length){
+   jq(document).scroll(function() { 
+      scroll_start = jq(this).scrollTop();
+      if(scroll_start > offset.top) {
+			   jq('.navbar-fixed-top').css({
+			  'background-color' : 'rgba(255, 255, 255, 0.9)',
+			  'transition': 'background-color 0.5s ease 0s'
+			  });
 
-			if(jq(window).innerWidth() <= 768){
-				if(!jq("#mainHeader #mainMenu #navbar").hasClass("in")){
-					jq("#mainHeader #mainMenu .navbar-toggle").attr("style", "background-color: transparent !important");
-				}
-				else{
-					jq("#mainHeader #mainMenu .navbar-toggle").attr("style", "");
-				}
-			}
-		});
-	}
-	toggleNavbarButton();
+       } else {
+		   if( WindowWidth > 768){
+			   jq('.navbar-fixed-top').css('background-color', 'transparent');
+			   }
+			
+       }
+   });
+    }
+    
+    // Isotope
+jq( function() {
+  alert(3);
+  // init Isotope
+  var $grid = jq('.grid').isotope({
+    itemSelector: '.element-item2'
+  });
+  // filter functions
+  var filterFns = {
+    // show if number is greater than 50
 
-	//slider
-	var sliderCourses = "#courses-slider ";
-	JQ(window).load(function(){
-		ambitiousSlider.initSlider(sliderCourses);
-	});
-	JQ(window).resize(function(){
-		ambitiousSlider.initSlider(sliderCourses);
-	});
-	//left-click
-	JQ(sliderCourses + '#left-nav').click(function (e) {
-		ambitiousSlider.left(sliderCourses);
-	});
-	//prev-click
-	JQ(sliderCourses + '#right-nav').click(function (e) {
-		ambitiousSlider.right(sliderCourses);
-	});
-	//specific-click
-	JQ(sliderCourses + '.carousel-indicators .index').click(function (e) {
-		var index = JQ(this).attr('data-slide-to');
-		ambitiousSlider.specific(sliderCourses, index);
-		JQ(this).siblings().removeClass("active");
-		JQ(this).addClass("active");
-	});
-	/*home page contact map*/
-	googleMap.setMapDimensions();
-    jq(window).resize(function () {
-        googleMap.setMapDimensions();
-    });
+    // show if name ends with -ium
+    ium: function() {
+      var name = jq(this).find('.name').text();
+      return name.match( /ium$/ );
+    }
+  };
+  // bind filter on select change
+  jq('.filters-select ul li a').on( 'click',function() {
+    // get filter value from option value
+    var filterValue = this.name;
+    // use filterFn if matches value
+    filterValue = filterFns[ filterValue ] || filterValue;
+    $grid.isotope({ filter: filterValue });
+  });
+  
 });
+});
+jq('.carousel').carousel({
+  interval: 5000
+});
+
