@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="28px" viewBox="0 0 44 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 114 Copy + Line Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group-Copy-2" sketch:type="MSLayerGroup" transform="translate(-63.000000, -137.000000)">
+            <g id="Fill-114-Copy-+-Line-Copy-4" transform="translate(83.500000, 151.000000) rotate(-180.000000) translate(-83.500000, -151.000000) translate(62.000000, 137.000000)" sketch:type="MSShapeGroup">
+                <path d="M41.586029,12.4769661 L29.5438957,0.436820535 C28.9614683,-0.145606845 28.0192479,-0.145606845 27.4368205,0.436820535 C26.8543932,1.01924792 26.8543932,1.96345613 27.4368205,2.54588351 L38.4214407,13.5305037 L27.4368205,24.5171116 C26.8543932,25.099539 26.8543932,26.0437472 27.4368205,26.6261746 C27.7270403,26.9183822 28.110687,27.0634921 28.4903581,27.0634921 C28.872017,27.0634921 29.2536759,26.9183822 29.5438957,26.6261746 L41.586029,14.5840412 C41.8663098,14.3057483 42.0233465,13.9260772 42.0233465,13.5305037 C42.0233465,13.1369179 41.8663098,12.7572468 41.586029,12.4769661 L41.586029,12.4769661 Z" id="Fill-114-Copy" fill="#ED9F2D"></path>
+                <path d="M36.8215652,13.5277778 L0,13.5277778" id="Line-Copy-4" stroke="#ED9F2D" stroke-width="3.5" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

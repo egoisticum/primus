@@ -33,10 +33,10 @@ jq(document).ready(function(){
     
     // Isotope
 jq( function() {
-  alert(3);
   // init Isotope
   var $grid = jq('.grid').isotope({
-    itemSelector: '.element-item2'
+    itemSelector: '.element-item2',
+    filter: '.A1'
   });
   // filter functions
   var filterFns = {
