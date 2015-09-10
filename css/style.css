@@ -20,12 +20,16 @@ Content:
 */
 /*1. general things*/
 
-.PrimusForm{ border: none !important; border-bottom: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
-.PrimusForm:focus{border-bottom: 2px solid #ED9F2D !important; }
+
 @font-face {font-family: Lato;src: url(../fonts/Lato-Regular.ttf);}
 @font-face {font-family: LatoBlack;src: url(../fonts/Lato-Black.ttf);}
 @font-face {font-family: LatoBold;src: url(../fonts/Lato-Bold.ttf);}
 @font-face {font-family: LatoLight;src: url(../fonts/Lato-Light.ttf);}
+
+.PrimusForm{padding-left: 0px; padding-right: 0px; font-size: 1.250em; border: none !important; border-bottom: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
+.PrimusForm:focus{border-bottom: 2px solid #ED9F2D !important; }
+.PrimusTextAreaForm{border: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
+.PrimusBtn{border: none; border-radius: 0px !important; background-color: #ED9F2D; color: #ffffff; }
 
 body, html{font-family: Lato; font-size: 1em; height: 100% !important;}
 /* Large desktops and laptops */
@@ -50,6 +54,7 @@ body, html{font-family: Lato; font-size: 1em; height: 100% !important;}
 .top-70{margin-top:70px;}
 .top-80{margin-top:80px;}
 .top-90{margin-top:90px;}
+.top-100{margin-top:100px;}
 .bottom-10{margin-bottom:10px;}
 .bottom-20{margin-bottom:20px;}
 .bottom-30{margin-bottom:30px;}
@@ -194,17 +199,6 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #courses .details .duration{border-left: 1px solid #faf8f6; border-right: 1px solid #faf8f6; padding: 1em 0 1em 0;}
 #courses .details .price{padding: 1em 0 1em 0;}
 
-#courses .formularPageProgresBar{padding-top: 3.000em; }
-#courses .backBtn img{display: inline; margin-right: 1.313em;}
-#courses .backBtn a{font-size: 1.625em; font-family: LatoLight; color: #ED9F2D; letter-spacing: 0.063em;}
-#courses .backBtn{margin-top: 3.438em; margin-left: 3.875em;}
-#courses .formularDetails{margin-top: 1.3em;}
-#courses .formularDetails h5{font-family: Lato; font-size:  0.750em; color: #4D4F56; letter-spacing: 0.021em;}
-#courses .formularDetails p{font-family: LatoLight; font-size:  1.125em; color: #ED9F2D; letter-spacing: 0.040em; margin-top: -0.5em;}
-#courses .formularDescription p{ font-size: 1em; color: #4D4F56;}
-#courses .formularDescription h2{ font-size: 2.000em; color: #ED9F2D; font-family: LatoBlack; }
-#courses .formular{ margin-top: 2.250em; }
-
 
 
 /*8. entrance test section*/
@@ -279,4 +273,36 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
     #contact .right .btn{margin: 1em 0 0;}
     #contact .mobileContactInfo h1{font-weight: 600;font-size: 1.1em;}
     #contact .mobileContactInfo p{font-size:1em;font-weight: 500;}
+}
+/*Finished forular page*/
+#finishedFormular{ margin-bottom: -3em;}
+#finishedFormular .formularPageProgresBar{padding-top: 3.000em;}
+#finishedFormular h2{font-size: 1.625em; color: #ED9F2D; font-family: LatoBlack;}
+#finishedFormular p{font-size: 1em; color: #4D4F56; line-height: 1.625em; font-family: Lato; }
+#whatToDoNextSection p{font-size: 1em; font-family: Lato; line-height: 1.625em; color: #ffffff;}
+#whatToDoNextSection h1{margin-bottom: 0.625em; margin-top: -2.500em; font-size: 1.625em; font-family: LatoLight; color: #ffffff; line-height: 2em;}
+#whatToDoNextSection{ margin-bottom: -3.4em; }
+/*Formular page*/
+#formularPage .formularPageProgresBar{padding-top: 3.000em;}
+#formularPage .backBtn img{display: inline; margin-right: 1.313em;}
+#formularPage .backBtn a p{margin-top: -0.25em; font-size: 1.625em; font-family: LatoLight; color: #ED9F2D; letter-spacing: 0.063em;}
+#formularPage .backBtn a{text-decoration: none; }
+#formularPage .backBtn{margin-top: 3.438em;  margin-bottom: 7.438em; margin-left: -3em;}
+#formularPage .formularDetails{margin-top: 1.3em;}
+#formularPage .formularDetails h5{font-family: Lato; font-size:  0.750em; color: #4D4F56; letter-spacing: 0.021em;}
+#formularPage .formularDetails p{font-family: LatoLight; font-size:  1.125em; color: #ED9F2D; letter-spacing: 0.040em; margin-top: -0.5em;}
+#formularPage .formularDescription p{ font-size: 1em; color: #4D4F56;}
+#formularPage .formularDescription h2{ font-size: 2.000em; color: #ED9F2D; font-family: LatoBlack; }
+#formularPage .formular{ margin-top: 2.250em; }
+#formularPage p.formInputDetails{ color: #9B9DA0; font-size: 0.750em; letter-spacing: 0.027em;}
+#formularPage .PrimusBtn{margin-bottom: 6.125em;  margin-top: 2.938em; font-family: LatoBLack; font-size: 1.625em; width: 226px;}
+#formularPage .PrimusBtn:hover{background-color:  #ED9F2D; color: #ffffff;}
+#formularPage .primusSupport p{display: inline; font-size: 1em; color: #9B9DA0; letter-spacing: 0.036em; line-height: 1.188em; font-family: Lato;}
+#formularPage .primusSupport h5{ font-size: 1em; color: 4D4F56; margin-bottom: 1.5em;}
+#formularPage .primusSupport address{display: inline; color: #F2AE3A; font-size: 1em;}
+#formularPage .checkbox p{ color: #9B9DA0; font-size: 1em; display: inline;}
+#formularPage .checkbox a{display: inline; color: #F2AE3A; text-decoration: none;}
+
+@media (max-width: 768px){
+    #formularPage .PrimusBtn{ width: 100% !important;}
 }
