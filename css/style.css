@@ -306,3 +306,28 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 @media (max-width: 768px){
     #formularPage .PrimusBtn{ width: 100% !important;}
 }
+/*Team page*/
+#philosophie {margin-top: -9.9em; margin-bottom: -1.500em;}
+#philosophie h1{margin-top: 3.750em; margin-bottom: 0px; color: #ffffff; font-size: 2.563em; letter-spacing: 0.144em;}
+#philosophie .dividerLine{margin: 0 auto; margin-top: 0.938em; margin-bottom: 4.313em; background-color: #ffffff; max-width: 38.3em; height: 0.375em;}
+#philosophie p{text-align: left; color: #ffffff; font-size: 1.125em; line-height: 1.375em;}
+#philosophie p.middleText{margin-bottom: 2em; }
+#philosophie ul{padding-left: 0px; list-style: none; }
+#philosophie ul li {margin-bottom: 1.3em; }
+#philosophie ul li img{margin-left: -38px; margin-right: 1.188em; display: inline-block;}
+#philosophie ul li:last-child img{margin-top: -65px;}
+#philosophie ul li p{display: inline-block;}
+
+@media(min-width: 768px) and (max-width: 1120px){
+    #philosophie ul li img{margin-left: 0em !important; margin-right: 1.188em; display: inline-block;}
+}
+
+#teamSlider{background-color: #FAF8F6; width: 100%; padding-bottom: 3.938em; padding-top: 3em;}
+#teamSlider h1{font-family: LatoBlack; margin-top: 0px; margin-bottom: 0px; color: #ED9F2D; font-size: 2.563em; letter-spacing: 0.144em;}
+#teamSlider .dividerLine{margin: 0 auto; margin-top: 0.938em; margin-bottom: 3.063em; background-color: #ED9F2D; max-width: 11.438em; height: 0.375em;}
+#teamSlider .carousel-indicators .active{ background-color: #ED9F2D; border-color: #ED9F2D;}
+#teamSlider ol.carousel-indicators {top: 117%; border-color: #ED9F2D; }
+#teamSlider ol.carousel-indicators li{ border-color: #ED9F2D; }
+#teamSlider .carousel-inner img{margin: 0 auto; }
+#teamSlider .carousel-inner .title{padding: 1em 1em 0em 1em; position: absolute; bottom: 0;background-color: rgba(237, 159, 45, 0.7); width:89.75%;}
+#teamSlider .carousel-inner .title h1{font-size: 2.5vw; font-size: 2.5vh; font-size: LatoBlack; color: #ffffff; }
