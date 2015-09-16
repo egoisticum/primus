@@ -518,6 +518,7 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #nurnberg a p{margin-bottom: -1.8em; color: #ED9F2D; font-size: 1.125em;}
 
 #Links {width: 100%; background-color: #FAF8F6; padding-top: 3.000em; padding-bottom: 5.000em;}
+#Links .row{margin-right: 0px;}
 #Links a{text-decoration: none;}
 #Links a p.deutschKurs{text-decoration: none; color: #ED9F2D; font-size: 4.375em; font-family: LatoBlack;}
 #Links .deutschKursDivider{margin: 0 auto; margin-top: 0.938em; background-color: #ED9F2D; max-width: 18.188em; height: 1.375em;}
