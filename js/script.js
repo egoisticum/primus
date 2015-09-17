@@ -43,7 +43,6 @@ jq( function() {
   // filter functions
   var filterFns = {
     // show if number is greater than 50
-
     // show if name ends with -ium
     ium: function() {
       var name = jq(this).find('.name').text();

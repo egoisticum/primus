@@ -26,9 +26,9 @@ Content:
 @font-face {font-family: LatoBold;src: url(../fonts/Lato-Bold.ttf);}
 @font-face {font-family: LatoLight;src: url(../fonts/Lato-Light.ttf);}
 
-.PrimusForm{padding-left: 0px; padding-right: 0px; font-size: 1.250em; border: none !important; border-bottom: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
+.PrimusForm{padding-left: 0px; padding-right: 0px; font-size: 1.2em; border: none !important; border-bottom: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
 .PrimusForm:focus{border-bottom: 2px solid #ED9F2D !important; }
-.PrimusTextAreaForm{border: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
+.PrimusTextAreaForm{font-size: 1.250em; border: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
 .PrimusBtn{border: none; border-radius: 0px !important; background-color: #ED9F2D; color: #ffffff; }
 
 body, html{font-family: Lato; font-size: 1em; height: 100% !important;}
@@ -542,3 +542,49 @@ i.customPhone:before{content: url('../images/vector/telephone-icon.svg');display
 #kontakt .PrimusBtn{width: 8em; font-family: LatoBlack; letter-spacing: 0.063em; font-size: 1.625em;}
 #kontakt .PrimusBtn:hover{background-color: #ed9f2d; color: #ffffff;}
 #main #map-canvas{width: 100%; height: 640px;}
+@media(max-width: 768px){
+    #kontakt .PrimusBtn{width: 100%; font-family: LatoBlack; letter-spacing: 0.063em; font-size: 1.625em;}
+}
+
+/*Gestebuch page*/
+#gestebuch{background-color: #ffffff; width: 100%; }
+#gestebuch .beitrag{margin-bottom: 2.438em; margin-top: 2.438em; border-bottom: 1px solid #979797; width: 100%;}
+#gestebuch .beitrag h5{font-family: LatoLight; color: #4D4F56; font-size: 1em;}
+#gestebuch .beitrag h2{font-family: LatoLight; color: #4D4F56; font-size: 1.625em;}
+#gestebuch .beitrag h2 span{color: #ED9F2D; }
+#gestebuch .beitrag p{font-family: Lato; font-size: 1em; color: #4D4F56; }
+#gestebuch .beitrag p.onGermany{margin-bottom: 1.625em;}
+#gestebuch .beitragInputFields{margin-top: 2.438em;}
+#gestebuch .beitragInputFields h2{font-size: 1.625em; font-family: LatoBold; color: #ED9F2D;}
+#gestebuch .beitragInputFields p{font-size: 1.625em; font-family: LatoLight; color: #ED9F2D;}
+#gestebuch .beitragInputFields p.formInputDetails{font-family: Lato; color: #9B9DA0; font-size: 0.750em;}
+#gestebuch .beitragInputFields .PrimusBtn{width: 14.125em; font-family: LatoBold; color: #ffffff; background-color: #ED9F2D;}
+#gestebuch .beitragInputFields .PrimusBtn:hover{font-family: LatoBold; color: #ffffff; background-color: #ED9F2D;}
+#gestebuch a{ text-decoration: none;}
+#gestebuch a p.altereBeitrage{font-size: 0.938em; color: #ED9F2D; font-family: Lato; margin-bottom: 6.250em;}
+#gestebuch .beitragInputFields .PrimusFormDropDown{padding-left: 0px; padding-right: 0px; font-size: 1.2em; border: none !important; border-bottom: 2px solid #D8D8D8 !important; border-radius: 0px !important; background-color: transparent !important; box-shadow: none !important;}
+#gestebuch .beitragInputFields .PrimusFormDropDown:focus{border-bottom: 2px solid #ED9F2D !important; }
+@media(max-width: 768px){
+    #gestebuch .beitragInputFields .PrimusBtn{margin-bottom: 6.250em; width: 100%; font-family: LatoBold; color: #ffffff; background-color: #ED9F2D;} 
+}
+
+/*Fremdsprachen page*/
+#fremdsprachen{padding-top: 3.250em; }
+#fremdsprachen select.filters-select{display: inline;}
+#fremdsprachen p.headerTxt{display: inline; font-size: 1.625em; font-family: LatoLight; color: #4D4F56;}
+#fremdsprachen .details{margin-bottom: 13px; background-color: #ffffff; position: relative;width:100%;height:auto;margin-top:0px;font-weight: 600;}
+#fremdsprachen .details p.title{background-color: #ffffff;  color:#9b9da0; text-align: center;text-transform: capitalize;font-size: 0.750em; font-family: Lato; }
+#fremdsprachen .details p.titleValue{background-color: #ffffff;  color:#f6b343; text-align: center;font-size: 1.125em; font-family: LatoLight;}
+#fremdsprachen .courseValue{ margin-top: -15px; background-color: #ffffff;  color:#f6b343; text-align: center;font-size: 1.5em; font-family: LatoBold; }
+#fremdsprachen .details .level{ padding: 1em 0 1em 0;}
+#fremdsprachen .details .duration{border-left: 1px solid #faf8f6; border-right: 1px solid #faf8f6; padding: 1em 0 1em 0;}
+#fremdsprachen .details .price{padding: 1em 0 1em 0;}
+#fremdsprachen .mainPart{padding: 3em; background-color: #ffffff; position: relative; width:100%;}
+#fremdsprachen .nextCourse{border-top: 1px solid #F6F8FA; padding: 0.5em; background-color: #ffffff; position: relative; width:100%;}
+#fremdsprachen .mainPart h3{font-size: 3em; color: #F5A623; font-family: LatoBold;}
+#fremdsprachen .nextCourse h3{margin-bottom: 0em; font-family: Lato; color: #9B9DA0; font-size: 0.750em;}
+#fremdsprachen .nextCourse p{font-family: LatoLight; color: #F2AE3A; font-size: 1.125em;}
+#fremdsprachen .details .row{border-top: 1px solid #F6F8FA;}
+#fremdsprachen .coursTitle{background-color: #ED9F2F; width: 100%; margin-bottom: -0.625em;}
+#fremdsprachen .coursTitle h3{font-size: 1.625em; color: #ffffff; font-family: LatoBlack; padding-bottom: 1.688em; padding-top: 1.688em;}
+#fremdsprachen  .row-centered{margin-bottom: 2.500em;}
